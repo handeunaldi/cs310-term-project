@@ -6,15 +6,11 @@ A Flutter mobile application that helps people choose restaurants and cafes thro
 
 ## Group Information
 
-- **Group number:** [Group number]
-- **Step 1 coordinator:** Hande Ünaldı
-- **GitHub repository:** [cs310-term-project](https://github.com/handeunaldi/cs310-term-project)
-
 | Group Member | Student ID |
 | --- | --- |
 | Yusuf Ali Matyar | [Student ID] |
-| Hande Ünaldı | [Student ID] |
-| Tuna Genç | [Student ID] |
+| Hande Ünaldı |  |
+| Tuna Genç | 34506 |
 
 ## App Overview
 
