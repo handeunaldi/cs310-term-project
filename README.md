@@ -1,6 +1,6 @@
 # cs310-term-project
 
-# Mekan Seç
+# A Supportive App For People To Choose Restaurants/Cafes
 
 A Flutter mobile application that helps people choose restaurants and cafes through search and successive rounds of elimination.
 
