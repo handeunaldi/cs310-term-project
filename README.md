@@ -6,8 +6,8 @@ A Flutter mobile application that helps people choose restaurants and cafes thro
 
 | Group Member | Student ID |
 | --- | --- |
-| Yusuf Ali Matyar | [Student ID] |
-| Hande Ünaldı | [Student ID] |
+| Yusuf Ali Matyar | 34128 |
+| Hande Ünaldı | 35617 |
 | Tuna Genç | 34506 |
 
 ## App Overview
