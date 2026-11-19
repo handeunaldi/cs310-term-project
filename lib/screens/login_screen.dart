@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void _logIn() {
     if (_formKey.currentState!.validate()) {
-      Navigator.pushNamed(context, '/picks');
+      Navigator.pushNamed(context, '/picks'); // For now, later it will be home screen
     }
   }
 
@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       controller: _emailController,
                       decoration: const InputDecoration(
                         labelText: 'Email',
-                        hintText: 'hello@placestogo.com',
+                        hintText: '',
                         border: OutlineInputBorder(),
                       ),
                       validator: (value) {
