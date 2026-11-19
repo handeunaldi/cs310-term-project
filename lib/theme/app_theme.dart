@@ -7,24 +7,20 @@ class AppTheme {
   static final ThemeData lightTheme = ThemeData(
     brightness: Brightness.light,
     fontFamily: 'PlusJakartaSans',
-    scaffoldBackgroundColor: AppColors.lightBackground,
-    // Background screen
-    cardColor: AppColors.lightCard,
-    // Form box
-    dividerColor: AppColors.lightBorder,
-    // Borders
+    scaffoldBackgroundColor: AppColors.lightBackground, // Background screen
+
+    cardColor: AppColors.lightCard,  // Form box
+
+    dividerColor: AppColors.lightBorder,   // Borders
+
     hintColor: AppColors.lightHint,
     colorScheme: const ColorScheme.light(
-      primary: AppColors.lightPrimary,
-      // Buttons
-      onPrimary: AppColors.white,
-      // Texts on buttons
+      primary: AppColors.lightPrimary,   // Buttons
+      onPrimary: AppColors.white, // Texts on buttons
       secondary: AppColors.lightLink,
       surface: AppColors.lightBackground,
-      onSurface: AppColors.lightTextPrimary,
-      // Main text color
-      onSurfaceVariant: AppColors.lightTextSecondary,
-      // Secondary text
+      onSurface: AppColors.lightTextPrimary,  // Main text color
+      onSurfaceVariant: AppColors.lightTextSecondary, // Secondary text
       error: AppColors.lightError, // Error messages
     ),
   );
