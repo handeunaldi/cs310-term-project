@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'theme/app_theme.dart';
 import 'screens/sign_up_screen.dart';
+import 'screens/login_screen.dart';
+import 'screens/your_picks_screen.dart';
 
 void main() {
   runApp(const PlacesToGoApp());
-
 }
 
 class PlacesToGoApp extends StatelessWidget {
@@ -17,7 +18,12 @@ class PlacesToGoApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home: const SignUpScreen(),
-      );
+      initialRoute: '/signup',
+      routes: {
+        '/signup': (context) => const SignUpScreen(),
+        '/login': (context) => const LoginScreen(),
+        '/picks': (context) => const YourPicksScreen(),
+      },
+    );
   }
 }

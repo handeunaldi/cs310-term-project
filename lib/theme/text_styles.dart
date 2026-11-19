@@ -14,7 +14,7 @@ class AppTextStyles {
     fontWeight: FontWeight.w400,
   );
 
-  // Alan etiketleri
+  // Names for labels
   static const TextStyle label = TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w700,
