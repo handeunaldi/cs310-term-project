@@ -4,8 +4,15 @@ class Place {
   final String name;
   final String area;
   final String imageUrl;
+  final double rating;
+  final String review;
 
-  const Place({required this.name, required this.area, required this.imageUrl,
+  const Place({
+    required this.name,
+    required this.area,
+    required this.imageUrl,
+    required this.rating,
+    required this.review,
   });
 }
 
@@ -15,25 +22,35 @@ const List<Place> samplePicks = [
     name: 'Little Corner Café',
     area: 'Moda · Café',
     imageUrl: 'https://picsum.photos/seed/cafe1/200',
+    rating: 4.8,
+    review: '"Great coffee and a quiet garden in the back. Perfect for slow Sundays."',
   ),
   Place(
     name: 'Green Yard Brunch',
     area: 'Caferağa · Brunch',
     imageUrl: 'https://picsum.photos/seed/cafe2/200',
+    rating: 4.6,
+    review: '"Huge brunch plates and a sunny terrace."',
   ),
   Place(
     name: 'Sunday Table',
     area: 'Yeldeğirmeni · Brunch',
     imageUrl: 'https://picsum.photos/seed/cafe3/200',
+    rating: 4.5,
+    review: '"Long wooden tables, great for big groups."',
   ),
   Place(
     name: 'Olive & Crumb',
     area: 'Moda · Bakery',
     imageUrl: 'https://picsum.photos/seed/cafe4/200',
+    rating: 4.7,
+    review: '"Fresh bread every morning and very friendly staff."',
   ),
   Place(
     name: 'The Back Garden',
     area: 'Fenerbahçe · Café',
     imageUrl: 'https://picsum.photos/seed/cafe5/200',
+    rating: 4.4,
+    review: '"A hidden garden close to the sea."',
   ),
 ];

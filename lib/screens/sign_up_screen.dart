@@ -46,7 +46,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
           TextButton(
             onPressed: () {
               Navigator.pop(dialogContext);
-              Navigator.pushNamed(context, '/picks');
+              Navigator.pushNamed(context, '/home');
             },
             child: const Text('Continue'),
           ),

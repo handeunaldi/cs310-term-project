@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void _logIn() {
     if (_formKey.currentState!.validate()) {
-      Navigator.pushNamed(context, '/picks'); // For now, later it will be home screen
+      Navigator.pushNamed(context, '/home');
     }
   }
 
