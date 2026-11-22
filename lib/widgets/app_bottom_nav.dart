@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+
 import '../theme/app_spacing.dart';
 
-// Bottom bar used in Home and Profile (Explore will use it too)
+// Bottom bar shared by Explore, Home and Profile.
 // 0 = Explore, 1 = Home, 2 = Profile
 class AppBottomNav extends StatelessWidget {
   final int currentIndex;
@@ -20,10 +21,7 @@ class AppBottomNav extends StatelessWidget {
               label: 'Explore',
               selected: currentIndex == 0,
               onTap: () {
-                // Explore screen is not ready yet
-                ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Explore is coming soon')),
-                );
+                Navigator.pushNamed(context, '/explore');
               },
             ),
           ),
@@ -89,6 +87,7 @@ class _NavItem extends StatelessWidget {
           borderRadius: BorderRadius.circular(AppSpacing.radius),
         ),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Icon(icon, size: 20, color: foreground),
             Text(label, style: TextStyle(fontSize: 12, color: foreground)),

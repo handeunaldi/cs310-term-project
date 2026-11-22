@@ -62,8 +62,10 @@ class _YourPicksScreenState extends State<YourPicksScreen> {
               height: 52,
               child: ElevatedButton(
                 onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Shared with the crew!')),
+                  Navigator.pushNamed(
+                    context,
+                    '/crews',
+                    arguments: _picks.length,
                   );
                 },
                 style: ElevatedButton.styleFrom(

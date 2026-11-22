@@ -5,13 +5,19 @@ class Crew {
   final String letter;
   final int members;
   final int spots;
+  final String? code;
 
   const Crew({
     required this.name,
     required this.letter,
     required this.members,
     required this.spots,
+    this.code,
   });
+
+  String get summary =>
+      '$members ${members == 1 ? 'member' : 'members'} · '
+      '$spots ${spots == 1 ? 'spot' : 'spots'}';
 }
 
 // Placeholder Data
